@@ -1,4 +1,3 @@
-//It is created by Teach Me Something
 #include <LiquidCrystal_I2C.h>
 #include <Wire.h>
 
@@ -10,7 +9,6 @@
 #define SPRITE_RUN1 1
 #define SPRITE_RUN2 2
 #define SPRITE_JUMP 3
-//It is created by Teach Me Something
 #define SPRITE_JUMP_UPPER '.'         // Use the '.' character for the head
 #define SPRITE_JUMP_LOWER 4
 #define SPRITE_TERRAIN_EMPTY ' '      // User the ' ' character
@@ -19,7 +17,6 @@
 #define SPRITE_TERRAIN_SOLID_LEFT 7
 
 #define HERO_HORIZONTAL_POSITION 1    // Horizontal position of hero on screen
-//Teach Me Something
 #define TERRAIN_WIDTH 16
 #define TERRAIN_EMPTY 0
 #define TERRAIN_LOWER_BLOCK 1
@@ -264,7 +261,7 @@ void loop(){
       lcd.setCursor(0,0);
       lcd.print("Start Game");
       lcd.setCursor(0,1);
-      lcd.print("TeachMeSomething");
+      lcd.print("BASIC ELECTRONICS");
      delay(300);
        lcd.setCursor(0,0);
       lcd.print("            ");
