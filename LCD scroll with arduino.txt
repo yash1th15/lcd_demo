@@ -6,7 +6,8 @@ void setup() {
   lcd.print("Hello World!");
 }
 
-void loop() {
+void loop() 
+{
   lcd.scrollDisplayLeft();
   delay(300); // Pause for 300 milliseconds 
 }
