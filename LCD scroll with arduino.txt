@@ -1,9 +1,3 @@
-// ------------------------------------------------------
-// 
-// scrollDisplayLeft() Demo - Updated for PCBoard.ca 2020-08-20
-//
-// ------------------------------------------------------
-
 #include <LiquidCrystal_I2C.h> // Driver Library for the LCD Module
 LiquidCrystal_I2C lcd(0x27, 16, 2);
 void setup() {
